@@ -1,11 +1,14 @@
 import React from "react";
+import Router from "./Components/Router/index";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <BrowserRouter>
+      <Router />
+      <p>Hello</p>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
