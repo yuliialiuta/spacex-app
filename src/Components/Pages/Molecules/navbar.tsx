@@ -7,8 +7,9 @@ import styled from "styled-components";
 const Nav = styled.div`
   display: flex;
   justify-content: space-between;
-  background: rgba(30, 30, 30, 0.48);
-  padding: 10px 50px;
+  align-items: center;
+  background: #1e1e1e7a;
+  padding: 15px 50px;
 `;
 
 const Navbar: React.FC = () => {

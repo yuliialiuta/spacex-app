@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing:border-box;
         font-family: 'Lato', sans-serif;
         font-family: 'Syne', sans-serif;
+        
     }
     #root{
         margin:0 auto;

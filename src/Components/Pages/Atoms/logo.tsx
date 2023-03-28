@@ -1,10 +1,11 @@
 import React from "react";
 // import styled from "styled-components";
+import { ReactComponent as LogoImg } from "../../pics/logo.svg";
 
 const Logo: React.FC = () => {
   return (
     <div>
-      <img src={"../../pics/logo.svg"} alt="logo" />
+      <LogoImg />
     </div>
   );
 };

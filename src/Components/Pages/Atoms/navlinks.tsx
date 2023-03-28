@@ -10,15 +10,20 @@ const NavLink = styled.a`
   text-transform: uppercase;
   color: #fff;
   margin: 5px;
+  text-decoration: none;
+
+  :hover {
+    text-decoration: underline;
+  }
 `;
 
 const Navlinks: React.FC = () => {
   return (
     <div>
       <NavLink href="/home">home</NavLink>
-      <NavLink href="/home">tours</NavLink>
-      <NavLink href="/home">about</NavLink>
-      <NavLink href="/home">help</NavLink>
+      <NavLink href="/">tours</NavLink>
+      <NavLink href="/">about</NavLink>
+      <NavLink href="/">help</NavLink>
     </div>
   );
 };
